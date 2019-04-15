@@ -48,3 +48,5 @@ adc10\app_rtthread.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 adc10\app_rtthread.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 adc10\app_rtthread.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 adc10\app_rtthread.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+adc10\app_rtthread.o: ../Inc/ANO.h
+adc10\app_rtthread.o: ../Inc/adc2.h

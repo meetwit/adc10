@@ -432,6 +432,16 @@
               <FileType>1</FileType>
               <FilePath>..\Src\drv_usart.c</FilePath>
             </File>
+            <File>
+              <FileName>ANO.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\ANO.c</FilePath>
+            </File>
+            <File>
+              <FileName>adc2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Src\adc2.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -654,23 +664,13 @@
             </File>
           </Files>
         </Group>
-        <Group>
-          <GroupName>::CMSIS</GroupName>
-        </Group>
       </Groups>
     </Target>
   </Targets>
 
   <RTE>
     <apis/>
-    <components>
-      <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="4.3.0" condition="CMSIS Core">
-        <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="4.5.0"/>
-        <targetInfos>
-          <targetInfo name="adc10"/>
-        </targetInfos>
-      </component>
-    </components>
+    <components/>
     <files/>
   </RTE>
 

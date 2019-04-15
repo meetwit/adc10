@@ -51,3 +51,4 @@ adc10\main.o: ../Middlewares/Third_Party/RT-Thread//include/rtservice.h
 adc10\main.o: ../Middlewares/Third_Party/RT-Thread//include/rtm.h
 adc10\main.o: ../Middlewares/Third_Party/RT-Thread//include/rtthread.h
 adc10\main.o: ../Middlewares/Third_Party/RT-Thread//components/finsh/finsh_api.h
+adc10\main.o: ../Inc/adc2.h

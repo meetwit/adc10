@@ -8,6 +8,8 @@
 "adc10\stm32f1xx_it.o"
 "adc10\stm32f1xx_hal_msp.o"
 "adc10\drv_usart.o"
+"adc10\ano.o"
+"adc10\adc2.o"
 "adc10\stm32f1xx_hal_gpio_ex.o"
 "adc10\stm32f1xx_hal_adc.o"
 "adc10\stm32f1xx_hal_adc_ex.o"

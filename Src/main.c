@@ -54,6 +54,7 @@
 #include "usart.h"
 #include "gpio.h"
 #include "app_rtthread.h"
+#include "adc2.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -109,7 +110,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+	Adc_Init();
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -121,7 +122,7 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_ADC1_Init();
+//  MX_ADC1_Init();
   MX_USART1_UART_Init();
   MX_RT_Thread_Init();
   /* USER CODE BEGIN 2 */
